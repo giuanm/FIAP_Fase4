@@ -1,0 +1,47 @@
+{
+    "total_frames": 286,
+    "anomaly_count": 13,
+    "total_face_detections": 144,
+    "total_person_count": 3,
+    "identified_persons": [
+        "Nick",
+        "Valentina",
+        "Desconhecido"
+    ],
+    "person_statistics": {
+        "Nick": {
+            "face_detections": 70,
+            "emotions": {
+                "neutral": 40,
+                "fear": 10,
+                "sad": 20
+            },
+            "activities": {
+                "Pessoa Sentada": 70
+            }
+        },
+        "Valentina": {
+            "face_detections": 70,
+            "emotions": {
+                "happy": 25,
+                "neutral": 33,
+                "sad": 2,
+                "angry": 10
+            },
+            "activities": {
+                "Pessoa Em Pe": 66,
+                "Braco Levantado": 11,
+                "Indefinido": 4
+            }
+        },
+        "Desconhecido": {
+            "face_detections": 4,
+            "emotions": {
+                "angry": 4
+            },
+            "activities": {
+                "Indefinido": 4
+            }
+        }
+    }
+}
