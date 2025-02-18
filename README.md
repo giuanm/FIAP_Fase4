@@ -10,6 +10,11 @@ Este projeto é uma aplicação de análise de vídeo desenvolvida como parte do
 *   **Detectar atividades** simples, como "Braços Levantados" e "Pessoa Em Pé/Sentada", usando análise de pose (esqueleto).
 *   **Gerar um relatório** com estatísticas sobre os frames processados, anomalias detectadas, atividades e emoções.
 
+## Modelo de Report gerado (imagem):
+
+![image](https://github.com/giuanm/FIAP_Fase4/blob/main/reports/statistics.png?raw=true)
+
+
 A aplicação foi desenvolvida em Python e utiliza as seguintes bibliotecas principais:
 
 *   **OpenCV (cv2):** Para processamento de vídeo (leitura, exibição, escrita) e desenho de elementos gráficos (retângulos, texto).
