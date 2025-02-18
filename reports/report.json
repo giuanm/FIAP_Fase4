@@ -1,46 +1,81 @@
 {
-    "total_frames": 286,
-    "anomaly_count": 13,
-    "total_face_detections": 144,
-    "total_person_count": 3,
+    "total_frames": 977,
+    "anomaly_count": 51,
+    "total_face_detections": 487,
+    "total_person_count": 5,
     "identified_persons": [
-        "Nick",
+        "Elvis",
+        "Fabio",
+        "Desconhecido",
         "Valentina",
-        "Desconhecido"
+        "Nick"
     ],
     "person_statistics": {
-        "Nick": {
-            "face_detections": 70,
+        "Elvis": {
+            "face_detections": 175,
             "emotions": {
-                "neutral": 40,
-                "fear": 10,
-                "sad": 20
+                "happy": 66,
+                "neutral": 9,
+                "angry": 5,
+                "sad": 4,
+                "fear": 4,
+                "surprise": 87
             },
             "activities": {
-                "Pessoa Sentada": 70
+                "Pessoa Em Pe": 104,
+                "Pessoa Sentada": 65,
+                "Braco Levantado": 11
             }
         },
-        "Valentina": {
-            "face_detections": 70,
+        "Fabio": {
+            "face_detections": 43,
             "emotions": {
-                "happy": 25,
-                "neutral": 33,
-                "sad": 2,
-                "angry": 10
+                "neutral": 42,
+                "angry": 1
             },
             "activities": {
-                "Pessoa Em Pe": 66,
-                "Braco Levantado": 11,
-                "Indefinido": 4
+                "Pessoa Em Pe": 42,
+                "Indefinido": 1
             }
         },
         "Desconhecido": {
-            "face_detections": 4,
+            "face_detections": 90,
             "emotions": {
-                "angry": 4
+                "happy": 69,
+                "neutral": 20,
+                "angry": 1
             },
             "activities": {
-                "Indefinido": 4
+                "Pessoa Em Pe": 89,
+                "Indefinido": 1
+            }
+        },
+        "Valentina": {
+            "face_detections": 90,
+            "emotions": {
+                "happy": 34,
+                "neutral": 41,
+                "angry": 12,
+                "sad": 3
+            },
+            "activities": {
+                "Braco Levantado": 38,
+                "Pessoa Sentada": 4,
+                "Pessoa Em Pe": 67,
+                "Indefinido": 3
+            }
+        },
+        "Nick": {
+            "face_detections": 89,
+            "emotions": {
+                "neutral": 44,
+                "sad": 31,
+                "fear": 14
+            },
+            "activities": {
+                "Braco Levantado": 2,
+                "Pessoa Em Pe": 5,
+                "Pessoa Sentada": 83
             }
         }
     }
